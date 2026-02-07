@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Big Bro • MVP UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="logo">BB</span>
+          <div>
+            <p class="product">Big Bro</p>
+            <p class="tagline">Radical Benevolence • MVP UI</p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-item active">Real-Talk Chat</button>
+          <button class="nav-item">War Room</button>
+          <button class="nav-item">Morning Kickoff</button>
+        </nav>
+
+        <section class="profile">
+          <h3>Your context</h3>
+          <ul>
+            <li><strong>Goal:</strong> Grow revenue to $50k/mo</li>
+            <li><strong>Mode:</strong> Motivator</li>
+            <li><strong>Energy:</strong> Medium</li>
+          </ul>
+          <button class="ghost">Edit context</button>
+        </section>
+
+        <section class="panic">
+          <h3>Panic Button</h3>
+          <p>Instant grounding + pep talk.</p>
+          <button class="panic-btn">I need help now</button>
+        </section>
+      </aside>
+
+      <main class="main">
+        <header class="header">
+          <div>
+            <h1>Real-Talk Chat</h1>
+            <p>Talk like a walkie-talkie. Big Bro answers with empathy + action.</p>
+          </div>
+          <div class="modes">
+            <span class="pill">Therapist</span>
+            <span class="pill">Business</span>
+            <span class="pill active">Motivation</span>
+          </div>
+        </header>
+
+        <section class="chat">
+          <div class="bubble user">
+            Bro, I’m tired and feel behind on everything.
+          </div>
+          <div class="bubble bot">
+            I got you. Let’s do a 15-minute sprint on the one thing that moves revenue today.
+          </div>
+          <div class="bubble bot">
+            Pick one: follow up on leads, ship the landing page update, or review ad spend.
+          </div>
+        </section>
+
+        <section class="composer">
+          <div class="input">
+            <span class="label">Message</span>
+            <input type="text" placeholder="Talk to me, Big Bro..." />
+          </div>
+          <div class="controls">
+            <button class="ghost">Voice note</button>
+            <button class="primary">Send</button>
+          </div>
+        </section>
+
+        <section class="actions">
+          <div class="card">
+            <h3>War Room Snapshot</h3>
+            <p>Upload docs and get strategy in minutes.</p>
+            <button class="ghost">Upload PDF</button>
+          </div>
+          <div class="card">
+            <h3>Morning Kickoff</h3>
+            <p>Daily check-ins that keep you accountable.</p>
+            <button class="ghost">Schedule</button>
+          </div>
+          <div class="card">
+            <h3>Pulse</h3>
+            <p>Track wins, energy, and focus streaks.</p>
+            <button class="ghost">View stats</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
